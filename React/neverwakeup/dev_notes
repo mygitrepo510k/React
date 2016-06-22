@@ -1,0 +1,9 @@
+1.) To release staging build to all users: 
+code-push release-react shopify ios --deploymentName Staging
+
+2.) To release to production PLEASE TEST TEST TEST
+code-push release-react shopify ios --deploymentName Production
+
+BEFORE LAUNCH:
+- Make sure Superstore app recurring charge 'test' parameter is off
+- Make sure code push key on neverwakeup is changed to 'production'
