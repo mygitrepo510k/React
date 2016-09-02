@@ -1,0 +1,28 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "plugins": [
+    "react",
+    "react-native"
+  ],
+  "extends": [
+    "airbnb"
+  ],
+  "rules": {
+    "global-require": 0,
+    "comma-dangle": 0,
+    "react/prop-types": 2,
+    "react/jsx-filename-extension": 0,
+    "jsx-boolean-value": 0,
+    "no-underscore-dangle": 0,
+    "require-jsdoc": ["error", {
+        "require": {
+            "FunctionDeclaration": true,
+            "MethodDefinition": true,
+            "ClassDeclaration": true
+        }
+    }]
+  }
+}

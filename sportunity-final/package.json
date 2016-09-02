@@ -1,0 +1,27 @@
+{
+  "name": "sportunity",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "eslint-plugin-react-native": "^2.0.0",
+    "lodash": "^4.14.1",
+    "react": "15.2.1",
+    "react-native": "0.31.0",
+    "react-native-day-picker": "^1.1.2",
+    "react-native-drawer": "^2.2.6",
+    "react-native-item-checkbox": "^1.0.6",
+    "react-native-multi-slider": "^0.3.5",
+    "react-native-router-flux": "^3.33.2",
+    "react-native-scrollable-tab-view": "^0.5.3",
+    "react-native-vector-icons": "^2.0.3",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2"
+  }
+}
