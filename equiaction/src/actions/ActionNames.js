@@ -1,0 +1,11 @@
+export const CHOOSE_PREMIUM = 'CHOOSE_PREMIUM';
+export const CHOOSE_FEATURED = 'CHOOSE_FEATURED';
+export const CHOOSE_STANDARD = 'CHOOSE_STANDARD';
+export const SET_CAPTION = 'SET_CAPTION';
+export const IS_VERIFIED = 'IS_VERIFIED';
+export const GO_HORSE_INFO = 'GO_HORSE_INFO';
+export const GET_FORM_DATA = 'GET_FORM_DATA';
+export const IS_ASYNC = 'IS_ASYNC';
+export const SAVE_HORSE_INFO = 'SAVE_HORSE_INFO';
+export const SELECT_COLOR = 'SELECT_COLOR';
+export const SELECT_SEX = 'SELECT_SEX';
